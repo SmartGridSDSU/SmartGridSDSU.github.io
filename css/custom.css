@@ -67,3 +67,20 @@
     margin-left: 0px;
   }
   
+  /* The nav has five items ("Join Us" added Oct 2026); the theme's 64% nav width (basic.css)
+     is too narrow for them on wide screens, so let the nav use the rest of the header row. */
+  @media (min-width: 981px) {
+    nav {
+      width: 85%;
+    }
+  }
+
+  /* Between the menu-icon breakpoint (600px) and about 680px the five links do not fit on one
+     row at the theme's size; tighten them slightly there so "Join Us" does not wrap. */
+  @media (min-width: 601px) and (max-width: 680px) {
+    nav li a {
+      margin-left: 4px;
+      margin-right: 4px;
+      font-size: 16px;
+    }
+  }

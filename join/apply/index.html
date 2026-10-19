@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+
+  <link rel="stylesheet" href="/css/franklin.css">
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/css/custom.css">
+   <title>JDP Application</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+  <link rel="stylesheet" href="/css/apply.css">
+  <noscript><style>.apply-page .ap-loading { display: none; }</style></noscript>
+
+</head>
+<body>
+  <header>
+  <div class="blog-name">
+    <a href="/">
+      Home
+    </a>
+  </div>
+<nav>
+  <ul>
+    <li><a href="/research-team">Team</a></li>
+    <li><a href="/publications">Publications</a></li>
+    <li><a href="/Teaching">Teaching</a></li>
+    <li><a href="/bio">About Me</a></li>
+    <li><a href="/join">Join Us</a></li>
+  </ul>
+  <img src="/assets/hamburger.svg" id="menu-icon">
+</nav>
+</header>
+
+
+<!-- Content appended here -->
+<!-- Private application page: reached only through the personal link in an invitation email
+     (?t=<token>). It is deliberately not linked from anywhere on the site. The form itself and
+     its questions are not part of this public repository; they are loaded from the server for
+     holders of a valid link. -->
+<div class="franklin-content"><div class="apply-page">
+
+<h1 id="jdp_application"><a href="#jdp_application" class="header-anchor">JDP Application</a></h1>
+<p class="ap-program">Smart Grid Lab, San Diego State University · Open PhD positions, Fall 2027</p>
+
+<noscript>
+  <p class="ap-notice ap-notice-warn">This application needs JavaScript. Please enable JavaScript in your browser and reload this page.</p>
+</noscript>
+
+<p class="ap-loading" id="ap-loading" role="status">Loading your application…</p>
+
+<div class="ap-notice ap-notice-error ap-state" id="ap-state-invalid" hidden>
+  <p><strong>This application link is invalid or has expired.</strong> Please request a new link on the <a href="/join/">Join page</a>.</p>
+</div>
+
+<div class="ap-notice ap-notice-warn ap-state" id="ap-state-closed" hidden>
+  <p><strong>Applications are closed.</strong> The Smart Grid Lab application for Fall 2027 closed on <span id="ap-closed-date">December 1, 2026</span>. Thank you for your interest.</p>
+</div>
+
+<div class="ap-notice ap-notice-warn ap-state" id="ap-state-error" hidden>
+  <p id="ap-state-error-text"><strong>We could not load your application right now.</strong> Please check your internet connection and try again later.</p>
+  <p><button type="button" class="ap-btn ap-btn-secondary ap-btn-sm" id="ap-retry">Try again</button></p>
+</div>
+
+<div id="ap-app" hidden>
+  <p class="ap-welcome" id="ap-welcome">Welcome<span id="ap-welcome-name"></span>. This is your personal application link<span id="ap-expiry"></span>; please do not share it.</p>
+  <p>Please submit your application by December 1, 2026. Selected applicants will be invited for an interview.</p>
+  <div id="ap-notices" class="ap-notices"></div>
+  <div id="ap-form-slot"></div>
+</div>
+
+<div id="ap-confirmation" class="ap-confirmation" tabindex="-1" hidden>
+  <h2 class="ap-confirm-title" id="application_received"><span class="ap-confirm-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" focusable="false"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" fill="currentColor"/></svg></span>Application received</h2>
+  <p>Thank you<span id="ap-confirm-name"></span>. Your application has been submitted to the Smart Grid Lab.</p>
+  <p class="ap-confirm-ref">Reference ID: <code id="ap-confirm-id"></code></p>
+  <p>Please keep this reference ID for your records. We review applications on a rolling basis, and selected applicants will be invited for an interview.</p>
+</div>
+
+</div>
+<div class="page-foot">
+    <!--a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a--> Saeed Manshadi  <!---{{isnotpage /tag/*}}Last modified: {{ fill fd_mtime }}.{{end}}
+    Website built with  <a href="https://julialang.org"> Julia programming language </a>. --->
+
+    <a href="https://scholar.google.com/citations?user=P_9_IZoAAAAJ" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-google fa-2x"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/saeed-manshadi-power-grid/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+
+      <a href="https://www.researchgate.net/profile/Saeed-Manshadi" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-researchgate fa-2x "></i>
+    </a>
+
+    <a href="https://github.com/SmartGridSDSU" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2x" ></i></a>
+
+    <!-- Email -->
+<a href="mailto:smanshadi@sdsu.edu"><i class="fas fa-envelope fa-2x"></i></a>
+
+<!-- ORCID -->
+<a href="https://orcid.org/0000-0003-4777-9413" target="_blank" rel="noopener noreferrer"><i class="fab fa-orcid fa-2x"></i></a>
+
+
+</div>
+</div><!-- CONTENT ENDS HERE -->
+
+
+  <script src="/assets/js/apply-config.js" defer></script>
+  <script src="/assets/js/apply.js" defer></script>
+  </body>
+</html>
